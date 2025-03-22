@@ -1,0 +1,12 @@
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/bin/Debug/net9.0/ServiceDefaults.deps.json
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/bin/Debug/net9.0/ServiceDefaults.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/bin/Debug/net9.0/ServiceDefaults.pdb
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.csproj.AssemblyReference.cache
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.AssemblyInfoInputs.cache
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.AssemblyInfo.cs
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/refint/ServiceDefaults.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ServiceDefaults.pdb
+/Users/admin/Desktop/Aspire/eshop-distributed/ServiceDefaults/obj/Debug/net9.0/ref/ServiceDefaults.dll
