@@ -1,6 +1,6 @@
 namespace Basket.Models;
 
-public class ShopingCart
+public class ShoppingCart
 {
     public string UserName { get; set; } = default!;
 

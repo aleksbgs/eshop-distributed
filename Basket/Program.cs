@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.AddServiceDefaults();
+builder.AddRedisDistributedCache(connectionName:"cache");
+builder.Services.AddScoped<BasketService>();
 
 
 var app = builder.Build();
@@ -18,6 +20,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 app.MapDefaultEndpoints();
+app.MapBasketEndpoints();
 
 app.UseHttpsRedirection();
 

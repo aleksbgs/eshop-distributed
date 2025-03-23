@@ -9,6 +9,12 @@
 **/._*
 .AppleDouble
 .LSOverride
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 
 # Icon must end with two \r
 Icon
