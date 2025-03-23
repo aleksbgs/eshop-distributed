@@ -1,0 +1,7 @@
+
+@Basket_HostAddress = http://localhost:5107
+
+GET {{Basket_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

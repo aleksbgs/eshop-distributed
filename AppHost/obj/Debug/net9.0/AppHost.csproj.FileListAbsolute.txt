@@ -91,3 +91,9 @@
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Aspire.Hosting.PostgreSQL.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/HealthChecks.NpgSql.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Npgsql.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Aspire.Hosting.Redis.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/HealthChecks.Redis.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Pipelines.Sockets.Unofficial.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/StackExchange.Redis.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/obj/Debug/net9.0/Aspire/references/Basket.ProjectMetadata.g.cs
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/obj/Debug/net9.0/AppHost.sourcelink.json

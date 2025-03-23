@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NwjJ0nyTUTA=",
+  "dgSpecHash": "Abds7x7Ld54=",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/AppHost.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,9 @@
     "/Users/admin/.nuget/packages/aspire.hosting.apphost/9.1.0/aspire.hosting.apphost.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.orchestration.osx-arm64/9.1.0/aspire.hosting.orchestration.osx-arm64.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.postgresql/9.1.0/aspire.hosting.postgresql.9.1.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/aspire.hosting.redis/9.1.0/aspire.hosting.redis.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspnetcore.healthchecks.npgsql/9.0.0/aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/aspnetcore.healthchecks.redis/9.0.0/aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspnetcore.healthchecks.uris/9.0.0/aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/fractions/7.3.0/fractions.7.3.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/google.protobuf/3.29.3/google.protobuf.3.29.3.nupkg.sha512",
@@ -63,10 +65,13 @@
     "/Users/admin/.nuget/packages/microsoft.identitymodel.logging/7.1.2/microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.identitymodel.tokens/7.1.2/microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
+    "/Users/admin/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/admin/.nuget/packages/polly.core/8.5.1/polly.core.8.5.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/stackexchange.redis/2.8.22/stackexchange.redis.2.8.22.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.diagnostics.eventlog/9.0.2/system.diagnostics.eventlog.9.0.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.identitymodel.tokens.jwt/7.1.2/system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.io.hashing/9.0.1/system.io.hashing.9.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/yamldotnet/16.0.0/yamldotnet.16.0.0.nupkg.sha512"
   ],
   "logs": []
