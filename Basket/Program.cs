@@ -1,3 +1,5 @@
+using Basket.ApiClients;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -9,10 +11,10 @@ builder.AddServiceDefaults();
 builder.AddRedisDistributedCache(connectionName:"cache");
 builder.Services.AddScoped<BasketService>();
 
+builder.Services.AddHttpClient<CatalogApiClient>(client => client.BaseAddress = new ("http+https://catalog"));
+
 
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

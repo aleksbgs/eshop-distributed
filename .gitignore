@@ -16,6 +16,12 @@ bin
 obj
 packages
 
+AppHost/bin
+AppHost/obj
+Catalog/bin
+Catalog/obj
+ServiceDefaults/obj
+ServiceDefaults/bin
 # Icon must end with two \r
 Icon
 
