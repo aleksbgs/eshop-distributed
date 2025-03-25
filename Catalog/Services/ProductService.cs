@@ -1,6 +1,9 @@
+using MassTransit;
+
+
 namespace Catalog.Services;
 
-public class ProductService(ProductDbContext dbContext)
+public class ProductService(ProductDbContext dbContext,IBus bus)
 {
 
      public async Task<IEnumerable<Product>> GetAllProductsAsync()
@@ -19,9 +22,24 @@ public class ProductService(ProductDbContext dbContext)
           dbContext.Products.Add(product);
           await dbContext.SaveChangesAsync();
      }
-
+     //TODO: Dual Write Distribution problem solved with saga pattern when we want to write something in two distributed systems transaction issue
      public async Task UpdateProductAsync(Product updatedProduct, Product inputProduct)
      {
+
+          if (updatedProduct.Price != inputProduct.Price)
+          {
+               //publish event
+               var integrationEvent = new ProductPriceChangedIntegrationEvent
+               {
+                    ProductId = updatedProduct.Id,
+                    Name = inputProduct.Name,
+                    Price = inputProduct.Price,
+                    ImageUrl = inputProduct.ImageUrl,
+                    Description = inputProduct.Description
+               };
+               await bus.Publish(integrationEvent);
+          }
+          
           updatedProduct.Name = inputProduct.Name;
           updatedProduct.Description = inputProduct.Description;
           updatedProduct.Price = inputProduct.Price;

@@ -97,3 +97,6 @@
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/StackExchange.Redis.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/obj/Debug/net9.0/Aspire/references/Basket.ProjectMetadata.g.cs
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/obj/Debug/net9.0/AppHost.sourcelink.json
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Aspire.Hosting.RabbitMQ.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/HealthChecks.Rabbitmq.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/RabbitMQ.Client.dll

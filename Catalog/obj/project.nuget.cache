@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X/FfPv4n9fI=",
+  "dgSpecHash": "f5acZf3tNAA=",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/Catalog.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,9 @@
     "/Users/admin/.nuget/packages/grpc.net.client/2.52.0/grpc.net.client.2.52.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/grpc.net.common/2.52.0/grpc.net.common.2.52.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/masstransit/8.4.0/masstransit.8.4.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/masstransit.abstractions/8.4.0/masstransit.abstractions.8.4.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/masstransit.rabbitmq/8.4.0/masstransit.rabbitmq.8.4.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.build.framework/17.8.3/microsoft.build.framework.17.8.3.nupkg.sha512",
@@ -78,6 +81,7 @@
     "/Users/admin/.nuget/packages/polly.core/8.4.2/polly.core.8.4.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/polly.extensions/8.4.2/polly.extensions.8.4.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/polly.ratelimiting/8.4.2/polly.ratelimiting.8.4.2.nupkg.sha512",
+    "/Users/admin/.nuget/packages/rabbitmq.client/7.1.2/rabbitmq.client.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",

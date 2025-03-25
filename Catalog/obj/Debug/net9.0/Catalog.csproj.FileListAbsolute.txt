@@ -175,3 +175,7 @@
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/obj/Debug/net9.0/Catalog.sourcelink.json
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/MassTransit.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/MassTransit.Abstractions.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/MassTransit.RabbitMqTransport.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/RabbitMQ.Client.dll
