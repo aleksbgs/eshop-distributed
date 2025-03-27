@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[9.1.0, )"
             },
+            "Aspire.Hosting.Keycloak": {
+              "target": "Package",
+              "version": "[9.1.0-preview.1.25121.10, )"
+            },
             "Aspire.Hosting.Orchestration.osx-arm64": {
               "target": "Package",
               "version": "[9.1.0, )",

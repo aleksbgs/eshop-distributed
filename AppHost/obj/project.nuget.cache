@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bBofPoX1oMU=",
+  "dgSpecHash": "tmy0NhyV5VE=",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/AppHost.csproj",
   "expectedPackageFiles": [
     "/Users/admin/.nuget/packages/aspire.dashboard.sdk.osx-arm64/9.1.0/aspire.dashboard.sdk.osx-arm64.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting/9.1.0/aspire.hosting.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.apphost/9.1.0/aspire.hosting.apphost.9.1.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/aspire.hosting.keycloak/9.1.0-preview.1.25121.10/aspire.hosting.keycloak.9.1.0-preview.1.25121.10.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.orchestration.osx-arm64/9.1.0/aspire.hosting.orchestration.osx-arm64.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.postgresql/9.1.0/aspire.hosting.postgresql.9.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspire.hosting.rabbitmq/9.1.0/aspire.hosting.rabbitmq.9.1.0.nupkg.sha512",
