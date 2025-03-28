@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[9.1.0, )"
             },
+            "CommunityToolkit.Aspire.OllamaSharp": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"

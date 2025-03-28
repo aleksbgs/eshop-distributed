@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tmy0NhyV5VE=",
+  "dgSpecHash": "AFNCFOyb+i0=",
   "success": true,
   "projectFilePath": "/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/AppHost.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/Users/admin/.nuget/packages/aspnetcore.healthchecks.rabbitmq/9.0.0/aspnetcore.healthchecks.rabbitmq.9.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspnetcore.healthchecks.redis/9.0.0/aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/aspnetcore.healthchecks.uris/9.0.0/aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/communitytoolkit.aspire.hosting.ollama/9.3.0/communitytoolkit.aspire.hosting.ollama.9.3.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/fractions/7.3.0/fractions.7.3.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/google.protobuf/3.29.3/google.protobuf.3.29.3.nupkg.sha512",
     "/Users/admin/.nuget/packages/grpc.aspnetcore/2.67.0/grpc.aspnetcore.2.67.0.nupkg.sha512",
@@ -33,6 +34,8 @@
     "/Users/admin/.nuget/packages/jsonpatch.net/3.2.3/jsonpatch.net.3.2.3.nupkg.sha512",
     "/Users/admin/.nuget/packages/jsonpointer.net/5.1.0/jsonpointer.net.5.1.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/kubernetesclient/15.0.1/kubernetesclient.15.0.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.bcl.asyncinterfaces/9.0.0/microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.extensions.ai.abstractions/9.3.0-preview.1.25114.11/microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration/9.0.2/microsoft.extensions.configuration.9.0.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.2/microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.binder/9.0.2/microsoft.extensions.configuration.binder.9.0.2.nupkg.sha512",
@@ -68,6 +71,7 @@
     "/Users/admin/.nuget/packages/microsoft.identitymodel.logging/7.1.2/microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.identitymodel.tokens/7.1.2/microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/npgsql/8.0.3/npgsql.8.0.3.nupkg.sha512",
+    "/Users/admin/.nuget/packages/ollamasharp/5.1.2/ollamasharp.5.1.2.nupkg.sha512",
     "/Users/admin/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/admin/.nuget/packages/polly.core/8.5.1/polly.core.8.5.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/rabbitmq.client/7.0.0/rabbitmq.client.7.0.0.nupkg.sha512",

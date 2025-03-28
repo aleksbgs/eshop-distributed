@@ -14,7 +14,8 @@
           "Aspire.Hosting.Orchestration.osx-arm64": "9.1.0",
           "Aspire.Hosting.PostgreSQL": "9.1.0",
           "Aspire.Hosting.RabbitMQ": "9.1.0",
-          "Aspire.Hosting.Redis": "9.1.0"
+          "Aspire.Hosting.Redis": "9.1.0",
+          "CommunityToolkit.Aspire.Hosting.Ollama": "9.3.0"
         },
         "runtime": {
           "AppHost.dll": {}
@@ -301,6 +302,18 @@
           }
         }
       },
+      "CommunityToolkit.Aspire.Hosting.Ollama/9.3.0": {
+        "dependencies": {
+          "Aspire.Hosting": "9.1.0",
+          "OllamaSharp": "5.1.2"
+        },
+        "runtime": {
+          "lib/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.dll": {
+            "assemblyVersion": "9.3.0.0",
+            "fileVersion": "9.3.0.0"
+          }
+        }
+      },
       "Fractions/7.3.0": {
         "runtime": {
           "lib/netstandard2.1/Fractions.dll": {
@@ -461,6 +474,22 @@
           "lib/net8.0/KubernetesClient.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "15.0.1.62974"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.3.0.0",
+            "fileVersion": "9.300.25.11411"
           }
         }
       },
@@ -913,6 +942,18 @@
           }
         }
       },
+      "OllamaSharp/5.1.2": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.3.0-preview.1.25114.11"
+        },
+        "runtime": {
+          "lib/net9.0/OllamaSharp.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "dependencies": {
           "System.IO.Pipelines": "8.0.0"
@@ -1100,6 +1141,13 @@
       "path": "aspnetcore.healthchecks.uris/9.0.0",
       "hashPath": "aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512"
     },
+    "CommunityToolkit.Aspire.Hosting.Ollama/9.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HYcFgWUCvGbaeN6o4Db2gytPDs5O67sgqxsocJCvp3WVOLnmpu/aiaVWhQ8B/OyJMt0AaZulfdUPAl2gnHIIiQ==",
+      "path": "communitytoolkit.aspire.hosting.ollama/9.3.0",
+      "hashPath": "communitytoolkit.aspire.hosting.ollama.9.3.0.nupkg.sha512"
+    },
     "Fractions/7.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1218,6 +1266,20 @@
       "sha512": "sha512-IOsMJaBpiHELr7ZeiJQypdtLDbc/HqxbEh9UMaDvLpBvGIzS+KhjA0LJVEbGgvubmhWHxLPfgHAL0le1zr2RwA==",
       "path": "kubernetesclient/15.0.1",
       "hashPath": "kubernetesclient.15.0.1.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh5RqAGzOUTSnx6vLrQqVH5LJXSPYmMF8/worfSmKiJ18blVQRHLqvpcc/JhSdFf/3YTOk2PPpWSX1PK+cbiPQ==",
+      "path": "microsoft.extensions.ai.abstractions/9.3.0-preview.1.25114.11",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/9.0.2": {
       "type": "package",
@@ -1463,6 +1525,13 @@
       "sha512": "sha512-6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
       "path": "npgsql/8.0.3",
       "hashPath": "npgsql.8.0.3.nupkg.sha512"
+    },
+    "OllamaSharp/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJvLm/5xQ6DSjGxFDU8H/sPAxKk5+tKqTGxDcCtBGiMy7t5ivCwkizlEs3v1woC09mo1XI8ZmUxZNkx3Hb2PiQ==",
+      "path": "ollamasharp/5.1.2",
+      "hashPath": "ollamasharp.5.1.2.nupkg.sha512"
     },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "type": "package",

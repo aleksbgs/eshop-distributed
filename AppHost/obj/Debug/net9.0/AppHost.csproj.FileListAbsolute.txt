@@ -101,3 +101,7 @@
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/HealthChecks.Rabbitmq.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/RabbitMQ.Client.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Aspire.Hosting.Keycloak.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/Microsoft.Extensions.AI.Abstractions.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/AppHost/bin/Debug/net9.0/OllamaSharp.dll

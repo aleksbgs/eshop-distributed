@@ -359,6 +359,23 @@
           }
         }
       },
+      "CommunityToolkit.Aspire.Hosting.Ollama/9.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Aspire.Hosting": "9.1.0",
+          "OllamaSharp": "5.1.2"
+        },
+        "compile": {
+          "lib/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Fractions/7.3.0": {
         "type": "package",
         "compile": {
@@ -612,6 +629,35 @@
         "runtime": {
           "lib/net8.0/KubernetesClient.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1324,6 +1370,23 @@
           }
         }
       },
+      "OllamaSharp/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.3.0-preview.1.25114.11"
+        },
+        "compile": {
+          "lib/net9.0/OllamaSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/OllamaSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Pipelines.Sockets.Unofficial/2.2.8": {
         "type": "package",
         "dependencies": {
@@ -1830,6 +1893,23 @@
         "lib/netstandard2.0/HealthChecks.Uris.xml"
       ]
     },
+    "CommunityToolkit.Aspire.Hosting.Ollama/9.3.0": {
+      "sha512": "HYcFgWUCvGbaeN6o4Db2gytPDs5O67sgqxsocJCvp3WVOLnmpu/aiaVWhQ8B/OyJMt0AaZulfdUPAl2gnHIIiQ==",
+      "type": "package",
+      "path": "communitytoolkit.aspire.hosting.ollama/9.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "communitytoolkit.aspire.hosting.ollama.9.3.0.nupkg.sha512",
+        "communitytoolkit.aspire.hosting.ollama.nuspec",
+        "lib/net8.0/CommunityToolkit.Aspire.Hosting.Ollama.dll",
+        "lib/net8.0/CommunityToolkit.Aspire.Hosting.Ollama.xml",
+        "lib/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.dll",
+        "lib/net9.0/CommunityToolkit.Aspire.Hosting.Ollama.xml",
+        "nuget.png"
+      ]
+    },
     "Fractions/7.3.0": {
       "sha512": "2bETFWLBc8b7Ut2SVi+bxhGVwiSpknHYGBh2PADyGWONLkTxT7bKyDRhF8ao+XUv90tq8Fl7GTPxSI5bacIRJw==",
       "type": "package",
@@ -2226,6 +2306,53 @@
         "lib/net8.0/KubernetesClient.pdb",
         "lib/net8.0/KubernetesClient.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "sha512": "owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Bcl.AsyncInterfaces.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Bcl.AsyncInterfaces.targets",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net462/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+      "sha512": "Bh5RqAGzOUTSnx6vLrQqVH5LJXSPYmMF8/worfSmKiJ18blVQRHLqvpcc/JhSdFf/3YTOk2PPpWSX1PK+cbiPQ==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.abstractions/9.3.0-preview.1.25114.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
+        "microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/9.0.2": {
@@ -3247,6 +3374,29 @@
         "postgresql.png"
       ]
     },
+    "OllamaSharp/5.1.2": {
+      "sha512": "LJvLm/5xQ6DSjGxFDU8H/sPAxKk5+tKqTGxDcCtBGiMy7t5ivCwkizlEs3v1woC09mo1XI8ZmUxZNkx3Hb2PiQ==",
+      "type": "package",
+      "path": "ollamasharp/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Ollama.png",
+        "README.md",
+        "analyzers/dotnet/cs/OllamaSharp.SourceGenerators.dll",
+        "lib/net8.0/OllamaSharp.dll",
+        "lib/net8.0/OllamaSharp.xml",
+        "lib/net9.0/OllamaSharp.dll",
+        "lib/net9.0/OllamaSharp.xml",
+        "lib/netstandard2.0/OllamaSharp.dll",
+        "lib/netstandard2.0/OllamaSharp.xml",
+        "lib/netstandard2.1/OllamaSharp.dll",
+        "lib/netstandard2.1/OllamaSharp.xml",
+        "ollamasharp.5.1.2.nupkg.sha512",
+        "ollamasharp.nuspec"
+      ]
+    },
     "Pipelines.Sockets.Unofficial/2.2.8": {
       "sha512": "zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
       "type": "package",
@@ -3514,7 +3664,8 @@
       "Aspire.Hosting.Orchestration.osx-arm64 >= 9.1.0",
       "Aspire.Hosting.PostgreSQL >= 9.1.0",
       "Aspire.Hosting.RabbitMQ >= 9.1.0",
-      "Aspire.Hosting.Redis >= 9.1.0"
+      "Aspire.Hosting.Redis >= 9.1.0",
+      "CommunityToolkit.Aspire.Hosting.Ollama >= 9.3.0"
     ]
   },
   "packageFolders": {
@@ -3589,6 +3740,10 @@
           "Aspire.Hosting.Redis": {
             "target": "Package",
             "version": "[9.1.0, )"
+          },
+          "CommunityToolkit.Aspire.Hosting.Ollama": {
+            "target": "Package",
+            "version": "[9.3.0, )"
           }
         },
         "imports": [
