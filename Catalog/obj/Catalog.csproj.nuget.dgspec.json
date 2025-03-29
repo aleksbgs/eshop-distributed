@@ -65,6 +65,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.VectorData.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0-preview.1.25161.1, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.InMemory": {
+              "target": "Package",
+              "version": "[1.44.0-preview, )"
             }
           },
           "imports": [

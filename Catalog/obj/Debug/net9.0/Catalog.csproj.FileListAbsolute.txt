@@ -214,3 +214,8 @@
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/zh-Hans/Aspire.Hosting.resources.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/zh-Hant/Aspire.Hosting.resources.dll
 /Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/Microsoft.Bcl.HashCode.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/Microsoft.Extensions.VectorData.Abstractions.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/Microsoft.SemanticKernel.Abstractions.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/Microsoft.SemanticKernel.Connectors.InMemory.dll
+/Users/admin/Desktop/Aspire/eshop-distributed/Catalog/bin/Debug/net9.0/System.Numerics.Tensors.dll

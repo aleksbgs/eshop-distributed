@@ -1,8 +1,6 @@
-using Microsoft.Extensions.AI;
-
 namespace Catalog.Services;
 
-public class ProductAIService(IChatClient chatClient)
+public class ProductAiService(IChatClient chatClient)
 {
     public async Task<string> SupportAsync(string query)
     {
@@ -22,7 +20,11 @@ public class ProductAIService(IChatClient chatClient)
             new ChatMessage(ChatRole.User, query)
         };
         
-        var resultPrompt = await chatClient.CompleteAsync(chatHistory);
-        return resultPrompt.Message.Contents[0].ToString()!;
+        var resultPrompt = await chatClient.GetResponseAsync(chatHistory);
+        return resultPrompt.Messages.ToString()!;
+
     }
+    
+    
+    
 }

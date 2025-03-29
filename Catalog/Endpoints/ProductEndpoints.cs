@@ -67,7 +67,7 @@ public static class ProductEndpoints
             .Produces(StatusCodes.Status204NoContent);
         
         //Support AI
-        group.MapGet("/support/{query}", async (string query, ProductAIService service) =>
+        group.MapGet("/support/{query}", async (string query, ProductAiService service) =>
             {
                 var response = await service.SupportAsync(query);
                 return Results.Ok(response);
