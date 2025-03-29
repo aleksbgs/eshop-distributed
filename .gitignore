@@ -446,3 +446,16 @@ FodyWeavers.xsd
 
 # Python virtual environment files
 **/.venv/*
+/obj/
+**/obj/
+AppHost/bin/*
+AppHost/obj/*
+Catalog/bin/*
+Catalog/obj/*
+ServiceDefaults/obj/*
+ServiceDefaults/bin/*
+# Rider
+ 
+.idea/
+.idea_modules/
+ 
